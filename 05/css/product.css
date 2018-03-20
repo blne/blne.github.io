@@ -1,0 +1,48 @@
+body {
+    font-family: Microsoft JhengHei;
+}
+
+#banner {
+    margin-top: 50px;
+}
+
+.title {
+    color: #FA8072;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.item {
+    margin-bottom: 30px;
+}
+
+.item p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 20px;
+}
+
+/* ------------------------------
+   CHAPTER ELEMENTS
+------------------------------ */
+#fixedTop {
+    padding: 15px 20px;
+    right: 10px;
+    bottom: 10px;
+    color: #fff;
+    text-align: center;
+    display: none;
+    background: #000;
+    position: fixed;
+    z-index: 99;
+    border-radius:99em;
+}

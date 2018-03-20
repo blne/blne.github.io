@@ -1,0 +1,142 @@
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #23527c;
+  text-decoration: underline;
+}
+a:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-bottom: 0;
+}
+
+
+body {
+    font-family: Microsoft JhengHei;
+}
+
+html {
+    height: 100%;
+}
+
+body{font-family: Microsoft JhengHei;}
+
+
+/**#banner{margin-top: -20px;}**/
+
+header{
+	  background-image: url(../images/watch.jpg)  ;
+	  background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+      background-size: cover;
+	  margin-top: -20px;
+	  padding-top: 160px;
+	  padding-bottom: 100px;
+	  min-height: 650px;
+	  color: #fff;
+
+}
+
+header h1{
+	      font-weight: 300;
+	      font-size: 70px;
+	      padding-bottom: 10px;
+
+}
+
+header h1 span{
+	           color: #28a7e9;
+	           font-weight: bold;
+}
+
+header .btn{
+	        background:transparent;
+	        border-radius: 2px;
+	        color: #fff;
+	        font-size: 16px;
+	        font-weight: bold;
+	        margin-top: 20px;
+	        width: 180px;
+	        height: 60px;
+	        padding-top: 18px;
+	        -webkit-transition:all 0.4s ease-in-out;
+	                transition:all 0.4s ease-in-out;
+}
+
+header .btn:hover{
+	              background: #28a7e9;
+	              background:transparent;
+}
+
+.element{
+	    height: 60px;
+	    font-size: 16px;
+}
+
+.img-responsive{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+
+#content{}
+
+.containter{}
+
+.rowtext-center{}
+
+.col-md-6 {}
+
+.col-sm12{}
+
+.text{margin-top:10%;
+text-align:center; }
+
+.pic{padding: 0px;}
+
+.title{color: #2d61b0;
+       font-weight: bold;
+       margin-bottom: 20px;
+      }
+
+.list{
+	  padding: 10px 0px;
+	  list-style-type: none;
+	  font-weight: bold;
+	  color: #424446;
+}
+
+footer{
+	   clear: both;
+	   background-color: #2b2c2e;
+	   color: #fff;
+	   height: 50px;
+	   text-align:center;
+	   font-size: 10px;
+	   padding-top:20px;
+	   margin-top:20px; 
+}
+
+@media(max-width: 992px){
+	.text{margin-top: 0px;}
+	}
+    .pic{padding: 15px;}
+
+
+}
