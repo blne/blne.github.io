@@ -1,0 +1,255 @@
+@charset "utf-8";
+body {
+	background: url(../images/bg.gif) repeat;
+	margin: 0;
+}
+header {
+	width: 1180px;
+	height: 140px;
+	padding: 0;
+	margin: 0 auto;
+	background: #FFFFFF;
+	border-right: 1px solid #ebf2f9;
+	border-left: 1px solid #ebf2f9;
+	border-bottom: 1px solid #C9C9C9;
+}
+.logo {
+	margin-top: 30px;
+	margin-left: 30px;
+}
+nav {
+	float: right;
+	margin-top: 40px;
+}
+nav ul li {
+	display: inline-block;
+	width: 122px;
+	height: 64px;
+	margin-right: 50px;
+	padding: 0;
+}
+nav li a {
+	display: inline-block;
+	width: 122px;
+	height: 64px;
+}
+nav li a span {
+	position: absolute;
+	top: -1000px;
+	display: inline-block;
+}
+nav li.about {
+	background: url(../images/menu1_o.jpg) no-repeat;
+}
+nav li.about a {
+	background: url(../images/menu1.jpg) no-repeat;
+}
+nav li.about a:hover {
+	background: url(../images/menu1_o.jpg) no-repeat;
+}
+nav li.tour {
+	background: url(../images/menu2_o.jpg) no-repeat;
+}
+nav li.tour a {
+	background: url(../images/menu2.jpg) no-repeat;
+}
+nav li.tour a:hover {
+	background: url(../images/menu2_o.jpg) no-repeat;
+}
+nav li.photo {
+	background: url(../images/menu3_o.jpg) no-repeat;
+}
+nav li.photo a {
+	background: url(../images/menu3.jpg) no-repeat;
+}
+nav li.photo a:hover {
+	background: url(../images/menu3_o.jpg) no-repeat;
+}
+nav li.dl a {
+	background: url(../images/menu4.jpg) no-repeat;
+}
+nav li.dl a:hover {
+	background: url(../images/menu4_o.jpg) no-repeat;
+}
+#mainContent {
+	width: 1180px;
+	padding: 40px;
+	margin: 0 auto;
+	background: #FFFFFF;
+	border-right: 1px solid #ebf2f9;
+	border-left: 1px solid #ebf2f9;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+#carousel1, #aboutpic {
+	width: 1180px;
+	padding: 0;
+	margin: 0 auto;
+}
+#topic1 {
+	width: 1100px;
+	font-family: "微軟正黑體";
+}
+#topic1 p {
+	text-align: center;
+}
+#topic1 h3 {
+	text-align: center;
+	margin-top: 5px;
+}
+.tourdate {
+	font-size: 18px;
+	color: rgba(171,171,171,1.00);
+	font-style: italic;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+#topic2 {
+	width: 600px;
+	font-size: 14px;
+	color: #5F5F5F;
+	font-family: "微軟正黑體";
+	line-height: 2em;
+	float: left;
+	margin-top: 30px;
+}
+#topic3 {
+	width: 425px;
+	font-size: 14px;
+	color: #5F5F5F;
+	font-family: "微軟正黑體";
+	line-height: 2em;
+	float: right;
+	margin-top: 30px;
+}
+#topic3 p {
+	margin-bottom: 8px;
+}
+#topic3 h4 {
+	margin-bottom: 0;
+	color: rgba(0,0,0,1.00);
+}
+.topictitle {
+	border-bottom: 1px solid #bfbfbf;
+	margin-bottom: 20px;
+}
+.topictitle1 {
+	margin-bottom: 5px;
+}
+.clear {
+	clear: both;
+}
+footer {
+	width: 1180px;
+	margin: 0 auto;
+	border-right: 1px solid #ebf2f9;
+	border-left: 1px solid #ebf2f9;
+	background: url(../images/footer_bg.gif) repeat;
+	border-top: 1px dashed #C9C9C9;
+	text-align: center;
+	padding: 20px 0;
+	font-size: 12px;
+	color: #5F5F5F;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	line-height: 1.2em;
+}
+/*行程*/
+#tourbox1 {
+	width: 180px;
+	font-size: 14px;
+	color: #5F5F5F;
+	font-family: "微軟正黑體";
+	line-height: 2em;
+	float: left;
+	margin-top: 10px;
+}
+#tourbox2 {
+	width: 900px;
+	font-size: 14px;
+	color: #5F5F5F;
+	font-family: "微軟正黑體";
+	line-height: 2em;
+	float: right;
+	margin-top: 10px;
+	padding-left: 30px;
+	border-left: 1px solid #ebf2f9;
+}
+#Tabs1 {
+	font-size: 16px;
+	color: rgba(0,0,0,1.00);
+	font-family: "微軟正黑體";
+	line-height: 2em;
+}
+#tabs-1, #tabs-2 {
+	text-align: center;
+	background: rgba(236,236,236,1.00);
+}
+#tabs-1 h3, #tabs-2 h3 {
+	margin-top: 5px;
+}
+#tourbox1 .dropdown-menu {
+	margin-left: 150px;
+	margin-top: -30px;
+}
+/*作品*/
+.photolist {
+	float: left;
+	width: 175px;
+	height: 165px;
+	margin: 0 10px 20px 10px;
+	padding-top: 30px;
+	background: url(../images/photo_bg.gif) no-repeat;
+	text-align: center;
+}
+.photolist p {
+	margin: 0;
+}
+#photoS {
+	width: 596px;
+	font-size: 14px;
+	color: #5F5F5F;
+	font-family: "微軟正黑體";
+	line-height: 2em;
+	float: left;
+	margin-top: 10px;
+}
+#photoB {
+	width: 500px;
+	font-size: 14px;
+	color: #5F5F5F;
+	font-family: "微軟正黑體";
+	line-height: 2em;
+	float: right;
+	margin-top: 30px;
+	text-align: center;
+	padding-top: 20px;
+	border: 1px dashed #bfbfbf;
+	border-radius: 20px;
+}
+#photoB h4 {
+	margin-bottom: 0;
+	color: rgba(0,0,0,1.00);
+}
+/*團隊*/
+#aboutus {
+	width: 1100px;
+	font-family: "微軟正黑體";
+}
+#aboutus p {
+	text-align: left;
+}
+#Accordion1 {
+	font-size: 16px;
+	color: rgba(0,0,0,1.00);
+	font-family: "微軟正黑體";
+	line-height: 2em;
+}
+#aboutus1, #aboutus2 {
+	background: rgba(236,236,236,1.00);
+}
+.people {
+	display: inline-block;
+	vertical-align: top;
+	width: 220px;
+	margin: 20px 15px;
+}

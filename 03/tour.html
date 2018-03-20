@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PhotoTour 旅遊攝影網 :: 歡迎愛旅遊愛攝影的你 ::</title>
+<link href="css/website.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<!-- <script src="jQueryAssets/jquery-1.11.1.min.js" type="text/javascript"></script> -->
+<!-- <link href="css/bootstrap.css" rel="stylesheet" type="text/css"> -->
+<style type="text/css"></style>
+<link href="css/bootstrap-3.3.4.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.datepicker.min.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
+<script src="jQueryAssets/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js" type="text/javascript"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.datepicker.min.js" type="text/javascript"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<header> <a href="index.html"><img class="logo" src="images/logo.jpg" width="346" height="84" alt=""/></a>
+  <nav>
+    <ul id="menu">
+      <li class="about"><a href="about.html"><span>ABOUT US</span></a></li>
+      <li class="tour"></li>
+      <li class="photo"><a href="photo.html"><span>PHOTOGRAPHY</span></a></li>
+    </ul>
+  </nav>
+</header>
+<div id="carousel1" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel1" data-slide-to="1"></li>
+    <li data-target="#carousel1" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="item active"><img src="images/carousel_pic3.jpg" alt="First slide image" class="center-block"> </div>
+    <div class="item"><img src="images/carousel_pic1.jpg" alt="Second slide image" class="center-block"> </div>
+    <div class="item"><img src="images/carousel_pic2.jpg" alt="Third slide image" class="center-block"> </div>
+  </div>
+  <a class="left carousel-control" href="#carousel1" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel1" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span class="sr-only">Next</span></a></div>
+<div id="mainContent">
+  <div id="tourbox1">
+    <div class="topictitle1"><img src="images/title2.jpg" width="250" height="85" alt=""/></div>
+    <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+      <div class="btn-group" role="group">
+        <button id="btnDropOne1" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">最新旅遊攝影行程　<span class="caret"></span></button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="btnDropOne1">
+          <li><a href="#">國內旅遊攝影行程</a></li>
+          <li><a href="#">國外旅遊攝影行程</a></li>
+        </ul>
+      </div>
+      <button type="button" class="btn btn-default">熱門旅遊攝影行程</button>
+      <button type="button" class="btn btn-default">經典旅遊攝影行程</button>
+    </div>
+    <p>&nbsp;</p>
+    <p>出發日期：</p>
+    <p>
+      <input type="text" id="Datepicker1">
+    </p>
+    <p>至</p>
+    <p>
+      <input type="text" id="Datepicker2">
+    </p>
+  </div>
+  <div id="tourbox2">
+    <div id="Tabs1">
+      <ul>
+        <li><a href="#tabs-1">熱門國內旅遊攝影行程</a></li>
+        <li><a href="#tabs-2">熱門國外旅遊攝影行程</a></li>
+      </ul>
+      <div id="tabs-1">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="thumbnail"><img src="images/thumbnail_pic1.jpg" alt="Thumbnail Image 1">
+              <div class="caption">
+                <h3>北部賞鳥團</h3>
+                <p class="tourdate">2019/5/25 - 2019/5/28</p>
+                <p><a href="#" class="btn btn-primary" role="button">詳細內容</a><a href="#" class="btn btn-default" role="button">線上報名</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail"><img src="images/thumbnail_pic2.jpg" alt="Thumbnail Image 1">
+              <div class="caption">
+                <h3>夜拍團</h3>
+                <p class="tourdate">2020/2/3 - 2020/2/4</p>
+                <p><a href="#" class="btn btn-primary" role="button">詳細內容</a><a href="#" class="btn btn-default" role="button">線上報名</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail"><img src="images/thumbnail_pic6.jpg" alt="Thumbnail Image 1">
+              <div class="caption">
+                <h3>日月潭</h3>
+                <p class="tourdate">2020/3/27 - 2020/4/9</p>
+                <p><a href="#" class="btn btn-primary" role="button">詳細內容</a><a href="#" class="btn btn-default" role="button">線上報名</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="tabs-2">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="thumbnail"><img src="images/thumbnail_pic5.jpg" alt="Thumbnail Image 1">
+              <div class="caption">
+                <h3>鐵道團</h3>
+                <p class="tourdate">2020/2/3 - 2020/2/14</p>
+                <p><a href="#" class="btn btn-primary" role="button">詳細內容</a><a href="#" class="btn btn-default" role="button">線上報名</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail"><img src="images/thumbnail_pic3.jpg" alt="Thumbnail Image 1">
+              <div class="caption">
+                <h3>東京賞櫻團</h3>
+                <p class="tourdate">2020/3/27 - 2020/4/9</p>
+                <p><a href="#" class="btn btn-primary" role="button">詳細內容</a><a href="#" class="btn btn-default" role="button">線上報名</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail"><img src="images/thumbnail_pic4.jpg" alt="Thumbnail Image 1">
+              <div class="caption">
+                <h3>古寺巡禮團</h3>
+                <p class="tourdate">2020/5/3 - 2020/5/6</p>
+                <p><a href="#" class="btn btn-primary" role="button">詳細內容</a><a href="#" class="btn btn-default" role="button">線上報名</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div>
+<footer>PhotoTour 旅遊攝影網　   100 台北市中正區杭州南路一段15-1號19樓　  TEL: 02-2396-3257<br />
+  Copyright  ©  PhotoTour. All rights reserved.</footer>
+<!-- <script src="js/bootstrap.js" type="text/javascript"></script> --> 
+<script src="js/bootstrap-3.3.4.js" type="text/javascript"></script> 
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+$(function() {
+	$( "#Datepicker1" ).datepicker(); 
+});
+$(function() {
+	$( "#Datepicker2" ).datepicker(); 
+});
+</script>
+</body>
+</html>
